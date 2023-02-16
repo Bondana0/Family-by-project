@@ -4,6 +4,16 @@
   | default @import url()
   |============================
 */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./header.css');
+@import url('./css-homepage/hero.css');
+@import url('./css-homepage/about-restaurant.css');
+@import url('./css-homepage/details-restaurant.css');
+@import url('./css-homepage/about-hotel.css');
+@import url('./css-homepage/details-hotel.css');
+@import url('./css-homepage/contacts.css');
+@import url('./footer.css');
 
 :root {
   --primary-white-color: #ffffff;
@@ -38,14 +48,3 @@ body {
     url("../fonts/FilmP3-Bold.woff") format("woff"),
     url("../fonts/FilmP3-Bold.ttf") format("ttf");
 }
-
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./header.css');
-@import url('./css-homepage/hero.css');
-@import url('./css-homepage/about-restaurant.css');
-@import url('./css-homepage/details-restaurant.css');
-@import url('./css-homepage/about-hotel.css');
-@import url('./css-homepage/details-hotel.css');
-@import url('./css-homepage/contacts.css');
-@import url('./footer.css');
