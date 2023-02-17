@@ -31,6 +31,8 @@
 }
 
 .section-hero {
+    position: relative;
+    
     padding-top: 129px;
     padding-bottom: 0px;
 }
