@@ -15,6 +15,7 @@
 
 .menu-table {
   width: 384px;
+  margin-bottom: 16px;
 }
 
 .menu-title-categories {
@@ -32,10 +33,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.price-wrap:not(:last-child) {
   margin-bottom: 8px;
 }
 
 .menu-title-dish {
+  width: 220px;
   margin-bottom: 4px;
   text-align: left;
   font-family: 'Montserrat';
@@ -45,6 +50,7 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .dish-products {
   width: 221px;
   font-family: 'Montserrat';
