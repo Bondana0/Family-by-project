@@ -47,25 +47,23 @@
   letter-spacing: 0.02em;
   color: #7a7a7a;
   width: 58vw;
-  margin-bottom: 26px;
 }
 .about-description {
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 2.5vw;
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #c79002;
   width: 39vw;
-  margin-right: 21px;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
 }
 
 .about-hotel-wrap {
   display: flex;
   margin-bottom: 32px;
   margin-top: 32px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 21px;
 }
 .swiper {
   margin-left: -15px;
@@ -78,8 +76,6 @@
     position: relative;
 }
 .about-list {
-    position: relative;
-    right: -15px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -117,14 +113,12 @@
   }
 
   .about-text {
-    margin-bottom: 36px;
+    margin-bottom: 26px;
   }
-  .about-hotel-img {
-    width: 244px;
-  }
-  .about-hall-img {
-    width: 200px;
-  }
+  /* .about-list {
+    position: relative;
+    left: -95px;} */
+ 
 }
 @media screen and (min-width: 414px) {
   .about-ere-title {
@@ -168,7 +162,8 @@
   }
   .about-hotel-wrap {
     justify-content: flex-end;
-    margin-top: 80px;
+    margin-top: 110px;
+    margin-bottom: 0;
   }
   .about-description {
     width: 312px;
@@ -178,7 +173,7 @@
   }
   .about-hotel-img {
     position: absolute;
-    top: -61px;
+    top: -24px;
     left: 112px;
   }
   .about-list-wrap {
@@ -189,6 +184,7 @@
 
   .about-list {
     padding-right: 0;
+    margin-top: -55px;
   }
 }
 
@@ -198,5 +194,8 @@
   }
   .about-text {
     width: 488px;
+  }
+  .about-hotel-wrap {
+    margin-top: 162px;
   }
 }
