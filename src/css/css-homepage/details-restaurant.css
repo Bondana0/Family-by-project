@@ -1,1 +1,310 @@
 /* Olga */
+
+.dr-section {
+margin: 0 auto;
+}
+
+
+.dr-bg-overlay {
+    background-color: var(--title-grey-color);
+}
+
+.dr-title {
+    font-family: 'Film P3';
+}
+
+.dr-button {
+    color: var(--accent-yellow-color);
+    display: block;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+  cursor: pointer;
+  min-width: 236px;
+  height: 48px;
+  border: 2px solid var(--primary-white-color);
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.dr-button:hover,
+.dr-button:focus {
+background-color: var(--primary-white-color);
+color: var(--accent-yellow-color);
+border-color: var(--accent-yellow-color);
+}
+
+.dr-button:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.dr-slider-arrows-wrap {
+    margin-top: 24px;
+    display: flex;
+    gap: 32px;
+}
+
+.dr-slider-arrow {
+    fill: var(--primary-white-color);
+}
+
+.dr-slider-arrow:hover,
+.dr-slider-arrow:focus {
+    fill: var(--accent-yellow-color);
+}
+
+@media screen and (max-width: 1023px) {
+    
+    .dr-section {
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+    
+    .dr-bg-overlay {
+        max-width: 1024px;
+        height: 735px;
+        background-image:linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ), url(../../img/homepage-image/details-restaurant-image/o-mob-restaurant-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .dr-bg-overlay {
+        background-image:linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ), url(../../img/homepage-image/details-restaurant-image/o-mob-restaurant-background-2x.jpg);
+      }
+    }
+    
+    .dr-title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1;
+        letter-spacing: 0.3em;
+        color: var(--primary-white-color);
+        margin-bottom: 12px;
+    }
+    
+    .dr-after-title {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--primary-white-color);
+        margin-bottom: 20px;
+        }
+    
+    .dr-text {
+    max-width: 259px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-color);
+    margin-bottom: 48px;
+    } 
+
+    .dr-slider-wrap {
+        
+        margin-left: 40px;
+    }
+
+    .dr-slider-image {
+        display: flex;
+        gap: 20px; 
+    }
+
+    .dr-picture03 {
+        display: none;
+    }
+
+    .dr-picture02 {
+        width: 80px;
+        height: 270px;
+    }
+
+    .dr-buttons {
+        margin-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dr-texts {
+       width: auto;
+       margin-left: 140px;
+    }
+
+    .dr-slider-arrows-wrap {
+        margin-left: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .dr-section {
+        padding-top: 48px;
+        padding-bottom: 40px;
+    }
+
+    .dr-bg-overlay {
+        max-width: 1280px;
+        height: 620px;
+        background-image:linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ), url(../../img/homepage-image/details-restaurant-image/o-tab-restaurant-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .dr-bg-overlay {
+      background-image:linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+      ), url(../../img/homepage-image/details-restaurant-image/o-tab-restaurant-background-2x.jpg);
+    }
+  }
+
+  .dr-container {
+    position: relative;
+  }
+
+  .dr-buttons {
+   position: absolute;
+  bottom: 56px;
+  left: 47px;
+}
+
+.dr-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: 0.3em;
+    color: var(--primary-white-color);
+    margin-bottom: 16px;
+}
+
+.dr-after-title {
+   font-family: 'Montserrat';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--primary-white-color);
+   margin-bottom: 8px;
+}
+
+.dr-text {
+    max-width: 610px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-color);
+    margin-bottom: 40px;
+    color: var(--subtitle-color);
+    margin-bottom: 40px;
+} 
+
+.dr-texts {
+    margin-left: 231px;
+}
+
+.dr-slider-arrows-wrap {
+    margin-left: 265px;
+    margin-top: 24px;
+    display: flex;
+    gap: 32px;
+}
+
+.dr-slider-wrap {
+    width: 662px;
+    height: 270px;
+    margin-left: 265px;
+}
+
+.dr-slider-image {
+    display: flex;
+    gap: 34px; 
+}
+
+.dr-picture03 {
+    width: 162px;
+    height: 270px;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .dr-bg-overlay {
+        max-width: 1440px;
+        height: 620px;
+        background-image:linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ), url(../../img/homepage-image/details-restaurant-image/o-desktop-restaurant-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .dr-bg-overlay {
+      background-image:linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+      ), url(../../img/homepage-image/details-restaurant-image/o-desktop-restaurant-background-2x.jpg);
+    }
+  }
+
+    .dr-texts {
+        margin-left: 253px;
+    }
+
+    .dr-slider-wrap {
+        width: 875px;
+        height: 270px;
+        margin-left: 268px;
+    }
+
+    .dr-slider-image {
+        gap: 86px; 
+    }
+
+    .dr-picture03 {
+        width: 270px;
+        height: 270px;
+    }
+
+    .dr-slider-arrows-wrap {
+        margin-left: 268px;
+    }
+
+    .dr-buttons {
+       left: 85px;
+     }
+ 
+}
+
+
+    
