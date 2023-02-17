@@ -14,7 +14,17 @@
 @import url('./css-homepage/about-hotel.css');
 @import url('./css-homepage/details-hotel.css');
 @import url('./css-homepage/contacts.css');
+@import url(' ./css-restaurant/hero-restaurant.css');
+@import url('./css-restaurant/about-kitchen.css');
+@import url('./css-restaurant/menu.css');
+@import url('./css-hotel/hero-hotel.css');
+@import url('./css-hotel/1-room-luxe-for-2-adult.css');
+@import url('./css-hotel/1-room-for-2-adult.css');
+@import url('./css-hotel/1-room-for-3-adult.css');
+@import url('./css-room/hero-room.css');
+@import url('./css-room/amenities.css');
 @import url('./footer.css');
+
 
 :root {
   --primary-white-color: #ffffff;
