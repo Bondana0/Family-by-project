@@ -1,1 +1,202 @@
 /* Yuliia Tarasenko */
+/* .container {
+    outline: 2px solid tomato;
+} */
+.about-img {
+  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.about {
+  background-color: #fffdee;
+}
+.about-container {
+  padding-top: 18px;
+  padding-bottom: 27px;
+}
+.about-container {
+  position: relative;
+}
+.about-hotel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.about-ere-title {
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 1.15;
+  color: #b4b4b4;
+  margin-bottom: 6px;
+}
+.about-title {
+  font-family: 'Film P3', sans-serif;
+  font-weight: 700;
+  font-size: 9vw;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: #494848;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.about-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3vw;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+  width: 58vw;
+  margin-bottom: 26px;
+}
+.about-description {
+  font-weight: 600;
+  font-size: 2vw;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #c79002;
+  width: 39vw;
+  margin-right: 21px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.about-hotel-wrap {
+  display: flex;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.swiper {
+  margin-left: -15px;
+  /* margin-right: 65px; */
+}
+/* .about-scroll-img {
+    min-width: 245px;
+} */
+.about-list-wrap{
+    position: relative;
+}
+.about-list {
+    position: relative;
+    right: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.about-hotel-icon {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  
+  .about-hotel-icon-button {
+    border: none;
+    color: #000000;
+    background-color: transparent;
+    cursor: pointer;
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .about-hotel-icon-button:hover,
+  .about-hotel-icon-button:focus {
+    color: #f3c653;
+  }
+  
+  .about-hotel-slider-icon {
+    fill: currentColor;
+  }
+  
+@media screen and (min-width: 280px) and (max-width: 1023px) {
+  .container-about {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-text {
+    margin-bottom: 36px;
+  }
+  .about-hotel-img {
+    width: 244px;
+  }
+  .about-hall-img {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 414px) {
+  .about-ere-title {
+    font-size: 20px;
+  }
+  .about-title {
+    font-size: 40px;
+  }
+  .about-text {
+    font-size: 12px;
+    width: 242px;
+  }
+  .about-description {
+    font-size: 12px;
+    width: 163px;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .about-container {
+    padding-top: 120px;
+    padding-bottom: 39px;
+  }
+  .container-about {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .about-ere-title {
+    font-size: 32px;
+    line-height: 1.15;
+  }
+  .about-title {
+    font-size: 64px;
+    line-height: 1.07;
+  }
+  .about-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 419px;
+  }
+  .about-hotel-wrap {
+    justify-content: flex-end;
+    margin-top: 80px;
+  }
+  .about-description {
+    width: 312px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-right: 48px;
+  }
+  .about-hotel-img {
+    position: absolute;
+    top: -61px;
+    left: 112px;
+  }
+  .about-list-wrap {
+    margin-bottom: 32px;
+    right: 0;
+    gap: 40px;
+  }
+
+  .about-list {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about {
+    padding-bottom: 57px;
+  }
+  .about-text {
+    width: 488px;
+  }
+}
