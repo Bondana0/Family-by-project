@@ -32,8 +32,8 @@
 @media screen and (min-width: 414px) {
     .section-hero {
         width: 414px;
-        padding-top: 129px;
-        padding-bottom: 0px;
+        padding-top: 181px;
+        padding-bottom: 20px;
         }
 }
 
@@ -41,8 +41,8 @@
     .section-hero {
         width: 1024px;
 
-        padding-top: 88px;
-        padding-bottom: 0px;
+        padding-top: 188px;
+        padding-bottom: 15px;
     }
     
 }
@@ -51,7 +51,7 @@
     .section-hero {
         width: 1280px;
 
-        padding-top: 64px;
+        padding-top: 164px;
         padding-bottom: 64px;
     }
 }
@@ -255,7 +255,7 @@
 } 
 @media screen and (min-width: 1025px) {
     .adress-link {
-        margin-right: 253px;
+        margin-right: 137px;
         width: 285px;
         height: 56px;
     }
@@ -271,9 +271,14 @@
 @media screen and (max-width: 1024px) {
     .adress-link {
         position: absolute;
-        top: 8%;
+        top: 13%;
         left: 47%;
         transform: translateY(-50%);
+    }
+}
+@media screen and (min-width: 1280px) {
+    .adress-link {
+        margin-right: 253px;
     }
 }
 
@@ -405,6 +410,11 @@
     flex-direction: row;
     width: 112px;
     height: 24px;
+}
+@media screen and (min-width: 1024px) {
+    .socials {
+        margin-left: 20px;
+    }
 }
 
 
