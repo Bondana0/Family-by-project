@@ -111,13 +111,9 @@
     }
 
     .dr-slider-wrap {
-        
-        margin-left: 40px;
-    }
-
-    .dr-slider-image {
         display: flex;
-        gap: 20px; 
+        gap: 20px;
+        margin-left: 40px;
     }
 
     .dr-picture03 {
@@ -226,14 +222,11 @@
     }
 
 .dr-slider-wrap {
+    display: flex;
+    gap: 34px; 
     width: 662px;
     height: 270px;
     margin-left: 265px;
-}
-
-.dr-slider-image {
-    display: flex;
-    gap: 34px; 
 }
 
 .dr-picture03 {
@@ -272,9 +265,6 @@
         width: 875px;
         height: 270px;
         margin-left: 268px;
-    }
-
-    .dr-slider-image {
         gap: 86px;
     }
 
