@@ -1,0 +1,29 @@
+.amenities {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #FFFDEE;
+}
+.amenities h2 {
+  margin-bottom: 16px;
+}
+.amenities>p {
+  margin-bottom: 32px;
+}
+.list {
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.amenities-btn {
+  margin-bottom: 20px;
+}
+.amenities-btn-transition {
+  display: flex;
+
+}
+.amenities-btn-hotpeg {
+  margin-left: 12px;
+}
