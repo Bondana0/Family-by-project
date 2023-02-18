@@ -1,5 +1,6 @@
 /* Yuliia */
 
+
 header > .container {
   padding-top: 16px;
   padding-bottom: 14px;
@@ -59,6 +60,16 @@ header > .container {
 
 .soc-list {
   display: none;
+}
+
+/* ========== 320px ========= */
+@media screen and (max-width: 320px) {
+  .logo-web {
+      font-size: 7.7vw;
+  }
+  .header-menu-link {
+    font-size: 3.86vw;
+  }
 }
 
 /* ========== TABLET ========= */
