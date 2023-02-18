@@ -10,6 +10,22 @@
   gap: 16px;
 }
 
+.menu-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu-wrap-column {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.menu-wrap-column:not(:last-child) {
+    margin-bottom: 16px;
+}
+
 .menu-title {
   margin-bottom: 32px;
   font-family: 'Times New Roman', sans-serif;
@@ -20,7 +36,7 @@
 }
 
 .menu-table {
-  width: 384px;
+  max-width: 384px;
 }
 
 .menu-title-categories {
@@ -45,7 +61,7 @@
 }
 
 .menu-title-dish {
-  width: 220px;
+  width: 221px;
   /* margin-bottom: 4px; */
   text-align: left;
   font-family: 'Montserrat';
@@ -57,7 +73,7 @@
 }
 
 .dish-products {
-  width: 221px;
+  max-width: 221px;
   margin-top: 4px;
   font-family: 'Montserrat';
   font-weight: 400;
@@ -85,6 +101,11 @@
   line-height: 1.21;
   letter-spacing: 0.02em;
   color: #000000;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: center;
 }
 
 .book-table-button {
@@ -119,13 +140,81 @@
   border: 2px solid #f3c653;
 }
 
+/* ========== 320px ========= */
+@media screen and (max-width: 320px) {
+  .menu-title {
+    font-size: 7.7vw;
+  }
+  .menu-title-categories {
+    font-size: 4.8vw;
+  }
+  .dish-products {
+    font-size: 2.41vw;
+  }
+  .dish-price,
+  .dish-weight,
+  .menu-title-dish {
+    font-size: 3.38vw;
+  }
+
+  .dish-products {
+    width: 190px;
+  }
+
+  .menu-title-dish {
+    width: 180px;
+  }
+  .book-table-button {
+    font-size: 3.86vw;
+  }
+}
+
 /* ========== TABLET ========= */
 
 @media screen and (min-width: 1024px) {
   .menu {
     padding-top: 58px;
     padding-bottom: 40px;
+    background-color: #f0ecd6;
   }
+
+  .menu-wpar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px 88px;
+  }
+
+  .menu-wrap-column {
+    gap: 20px;
+  }
+
+  .menu-table {
+    width: 411px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-wrap {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* #elem1 {
+    order: 0;
+  }
+  #elem2 {
+    order: 2;
+  }
+  #elem3 {
+    order: 1;
+  }
+  #elem4 {
+    order: 3;
+  }
+  #elem5 {
+    order: 4;
+  } */
 }
 
 /* ========== DESKTOP ========= */
