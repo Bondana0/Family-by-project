@@ -267,6 +267,11 @@ margin-bottom: 24px;
   margin-bottom: 188px;
   }
 
+  .lux-slider-picture {
+    background: #DADADA;
+box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  }
+
   .lux-slider-arrows-wrap {
     margin-top: 40px;
     margin-left: 457px;
