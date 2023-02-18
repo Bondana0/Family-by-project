@@ -107,9 +107,21 @@
   color: var(--title-dark-grey-color);
   margin-left: 12px;
 }
+@media screen and (max-width: 406px) {
+  .contacts-tel2 {
+    margin-left: 8px;
+  }
+
+  .contacts-mobil-320 {
+    display: flex;
+    flex-direction: column;
+  }
+  .google-maps {
+    width: 295px;
+  }
+}
 
 .contacts-adres {
-  width: 260px;
   height: 76px;
   background-color: #ffffff;
   border: 0.5px solid #f3c653;
