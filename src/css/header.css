@@ -1,9 +1,15 @@
 /* Yuliia */
 
-header > .container {
+
+header>.container {
   padding-top: 16px;
   padding-bottom: 14px;
-  background-color: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
 }
 
 .navigation {
@@ -53,6 +59,7 @@ header > .container {
   width: 20px;
   fill: #f3c653;
 }
+
 .header-phone {
   display: none;
 }
@@ -61,10 +68,21 @@ header > .container {
   display: none;
 }
 
+/* ========== 320px ========= */
+@media screen and (max-width: 320px) {
+  .logo-web {
+    font-size: 7.7vw;
+  }
+
+  .header-menu-link {
+    font-size: 3.86vw;
+  }
+}
+
 /* ========== TABLET ========= */
 
 @media screen and (min-width: 1024px) {
-  header > .container {
+  header>.container {
     padding-top: 24px;
     padding-bottom: 33px;
   }
@@ -97,6 +115,7 @@ header > .container {
     justify-content: center;
     gap: 10px;
   }
+
   .header-phone {
     display: block;
   }
@@ -109,6 +128,7 @@ header > .container {
     display: flex;
     justify-content: space-between;
   }
+
   .logo-web {
     margin-right: 135px;
   }
@@ -120,10 +140,12 @@ header > .container {
     align-items: center;
     gap: 23px;
   }
+
   .soc-item {
     height: 22px;
     width: 22px;
   }
+
   .soc-link {
     display: flex;
     gap: 23px;

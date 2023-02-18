@@ -1,11 +1,12 @@
 /* Yaroslav */
 .about-restourant {
-  background-color: #fffdee;
+  /* background-color: #fffdee; */
 }
 
 .about-restourant-container {
   padding-top: 16px;
   padding-bottom: 20px;
+  background-color: #fffdee;
 }
 
 .about-restourant-semititle {
