@@ -1,13 +1,16 @@
 .menu {
-  padding-top: 32px;
+  /* padding-top: 32px;
   padding-bottom: 32px;
-  background-color: #fffdee;
+  background-color: #fffdee; */
 }
 
-.menu > .container {
+.menu>.container {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #fffdee;
 }
 
 .menu-wrap {
@@ -23,7 +26,7 @@
 }
 
 .menu-wrap-column:not(:last-child) {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .menu-title {
@@ -145,12 +148,15 @@
   .menu-title {
     font-size: 7.7vw;
   }
+
   .menu-title-categories {
     font-size: 4.8vw;
   }
+
   .dish-products {
     font-size: 2.41vw;
   }
+
   .dish-price,
   .dish-weight,
   .menu-title-dish {
@@ -164,6 +170,7 @@
   .menu-title-dish {
     width: 180px;
   }
+
   .book-table-button {
     font-size: 3.86vw;
   }
@@ -173,7 +180,7 @@
 
 @media screen and (min-width: 1024px) {
   .menu {
-    padding-top: 58px;
+    padding-top: 0px;
     padding-bottom: 40px;
     background-color: #f0ecd6;
   }
@@ -219,5 +226,4 @@
 
 /* ========== DESKTOP ========= */
 
-@media screen and (min-width: 1280px) {
-}
+@media screen and (min-width: 1280px) {}
