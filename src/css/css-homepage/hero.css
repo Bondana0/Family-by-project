@@ -29,20 +29,27 @@
         padding-right: 85px;
     }
 }
+
 @media screen and (min-width: 414px) {
-    .section-hero {
+    .seсtion-hero {
         width: 414px;
-        padding-top: 129px;
         padding-bottom: 0px;
         }
+}
+@media screen and (max-width: 1024px) {
+    .section-hero {
+        position: relative;
+        padding-top: 181px;
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .section-hero {
         width: 1024px;
 
-        padding-top: 88px;
-        padding-bottom: 0px;
+        padding-top: 188px;
+        padding-bottom: 15px;
     }
     
 }
@@ -51,15 +58,11 @@
     .section-hero {
         width: 1280px;
 
-        padding-top: 64px;
+        padding-top: 164px;
         padding-bottom: 64px;
     }
 }
-@media screen and (max-width: 1024px) {
-    .section-hero {
-        position: relative;
-    }
-}
+
 .overlay {
             max-width: 1280px;
             min-width: 414px;
@@ -124,13 +127,13 @@
                 }
 
              }
-            
     
 .hero-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 144px;
 }      
+
 
 .hero-header {
 
@@ -142,8 +145,8 @@
     font-size: 96px;
     line-height: 1.07;
     letter-spacing: 0.3em;
-   
     margin-bottom: 32px;
+
     margin-left: 0.3em;
 
     color: #ffffff;
@@ -155,6 +158,7 @@
         font-weight: 700;
         font-size: 128px;
         line-height: calc(137/128);
+
     }
 }
 
@@ -271,7 +275,7 @@
 @media screen and (max-width: 1024px) {
     .adress-link {
         position: absolute;
-        top: 8%;
+        top: 12%;
         left: 47%;
         transform: translateY(-50%);
     }
@@ -405,8 +409,8 @@
     flex-direction: row;
     width: 112px;
     height: 24px;
+    
 }
-
 
 @media screen and (min-width: 1280px) {
     .socials {
