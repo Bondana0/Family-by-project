@@ -1,1 +1,154 @@
 /* Yuliia */
+header {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+header > .container {
+  padding-top: 16px;
+  padding-bottom: 14px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo-web {
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.075;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+}
+
+.header-menu-link {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+  margin-right: 10px;
+}
+
+.contact-item {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.contact-item:not(:last-child) {
+  margin-right: 26px;
+}
+
+.phone-icon {
+  display: flex;
+  width: 20px;
+  fill: #f3c653;
+}
+
+.header-phone {
+  display: none;
+}
+
+.soc-list {
+  display: none;
+}
+
+/* ========== 320px ========= */
+@media screen and (max-width: 320px) {
+  .logo-web {
+    font-size: 7.7vw;
+  }
+
+  .header-menu-link {
+    font-size: 3.86vw;
+  }
+}
+
+/* ========== TABLET ========= */
+
+@media screen and (min-width: 1024px) {
+  header>.container {
+    padding-top: 24px;
+    padding-bottom: 33px;
+  }
+
+  .logo-web {
+    font-size: 40px;
+    line-height: 1.075;
+  }
+
+  .header-menu-link {
+    font-size: 20px;
+    margin-right: 32px;
+  }
+
+  .contact-item {
+    width: 144px;
+    height: 40px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+  }
+
+  .contact-item:not(:last-child) {
+    margin-right: 72px;
+  }
+
+  .contact-number {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .header-phone {
+    display: block;
+  }
+}
+
+/* ========== DESKTOP ========= */
+
+@media screen and (min-width: 1280px) {
+  .header-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-web {
+    margin-right: 135px;
+  }
+
+  .soc-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 23px;
+  }
+
+  .soc-item {
+    height: 22px;
+    width: 22px;
+  }
+
+  .soc-link {
+    display: flex;
+    gap: 23px;
+    fill: rgba(243, 198, 83, 0.7);
+  }
+}

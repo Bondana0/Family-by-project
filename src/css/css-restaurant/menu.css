@@ -1,0 +1,232 @@
+
+
+.menu>.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #fffdee;
+}
+
+.menu-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu-wrap-column {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.menu-wrap-column:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.menu-title {
+  margin-bottom: 32px;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  color: #000000;
+}
+
+.menu-table {
+  max-width: 384px;
+}
+
+.menu-title-categories {
+  margin-bottom: 16px;
+  text-align: left;
+
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #000000;
+}
+
+.price-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-wrap:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.menu-title-dish {
+  width: 221px;
+  /* margin-bottom: 4px; */
+  text-align: left;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.dish-products {
+  max-width: 221px;
+  margin-top: 4px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.dish-weight {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.dish-price {
+  text-align: right;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.book-table-button {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 236px;
+  height: 48px;
+  align-self: center;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+
+  background-color: #000000;
+  border: 2px solid #fffdee;
+  border-radius: 25px;
+  cursor: pointer;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.book-table-button:hover,
+.book-table-button:focus-visible {
+  color: #f3c653;
+  background: #ffffff;
+  border: 2px solid #f3c653;
+}
+
+/* ========== 320px ========= */
+@media screen and (max-width: 320px) {
+  .menu-title {
+    font-size: 7.7vw;
+  }
+
+  .menu-title-categories {
+    font-size: 4.8vw;
+  }
+
+  .dish-products {
+    font-size: 2.41vw;
+  }
+
+  .dish-price,
+  .dish-weight,
+  .menu-title-dish {
+    font-size: 3.38vw;
+  }
+
+  .dish-products {
+    width: 190px;
+  }
+
+  .menu-title-dish {
+    width: 180px;
+  }
+
+  .book-table-button {
+    font-size: 3.86vw;
+  }
+}
+
+/* ========== TABLET ========= */
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: #f0ecd6;
+  }
+  .menu>.container {
+    background-color: #f0ecd6;
+  }
+
+  .menu-wpar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px 88px;
+  }
+
+  .menu-wrap-column {
+    gap: 20px;
+  }
+
+  .menu-table {
+    min-width: 411px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-wrap {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* #elem1 {
+    order: 0;
+  }
+  #elem2 {
+    order: 2;
+  }
+  #elem3 {
+    order: 1;
+  }
+  #elem4 {
+    order: 3;
+  }
+  #elem5 {
+    order: 4;
+  } */
+}
+
+/* ========== DESKTOP ========= */
+
+@media screen and (min-width: 1280px) {
+  .menu-table {
+    min-width: 485px;
+  }
+}
