@@ -68,7 +68,7 @@ header>.container {
 }
 
 /* ========== 320px ========= */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
   .logo-web {
     font-size: 7.7vw;
   }
@@ -84,6 +84,7 @@ header>.container {
   header > .container {
     padding-top: 24px;
     padding-bottom: 33px;
+    width: 1024px;
   }
 
   .logo-web {
@@ -123,6 +124,11 @@ header>.container {
 /* ========== DESKTOP ========= */
 
 @media screen and (min-width: 1280px) {
+
+  header>.container {
+    width: 1280px;
+  }
+
   .header-wrap {
     display: flex;
     justify-content: space-between;

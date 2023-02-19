@@ -50,7 +50,7 @@
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 10px;
-  line-height: 15px;
+  line-height: 1.5;
   letter-spacing: 0.01em;
 
   color: #e5e5e5;
@@ -74,7 +74,7 @@
 }
 
 .title-wpar-room {
-  width: 325px;
+  max-width: 325px;
   display: flex;
   gap: 14px;
   flex-direction: column;
@@ -85,7 +85,7 @@
   font-family: 'Times New Roman';
   font-weight: 700;
   font-size: 28px;
-  line-height: 32px;
+  line-height: 1.14;
   letter-spacing: 0.05em;
   color: #ffffff;
 }
@@ -94,7 +94,7 @@
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 17px;
@@ -119,8 +119,8 @@
 }
 
 .btn-hero-room {
-  width: 232px;
-  height: 48px;
+  max-width: 232px;
+  padding: 14px 32px;
   background: rgba(0, 0, 0, 0.4);
   border: 2px solid #ffffff;
   border-radius: 25px;
@@ -128,7 +128,20 @@
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   color: #f3c653;
+}
+
+/* ========== 320px ========= */
+@media screen and (max-width: 414px) {
+  .room-title-hero {
+    font-size: 6.76vw;
+  }
+  .room-about {
+    font-size: 2.9vw;
+  }
+  .btn-hero-room {
+    font-size: 3.86vw;
+  }
 }
