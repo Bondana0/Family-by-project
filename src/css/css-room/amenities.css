@@ -1,29 +1,123 @@
 .amenities {
   padding-top: 32px;
   padding-bottom: 32px;
-  background-color: #FFFDEE;
+  background-color: #fffdee;
 }
 .amenities h2 {
   margin-bottom: 16px;
+  font-family: 'Times New Roman', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.1;
 }
-.amenities>p {
+
+.amenities > p {
   margin-bottom: 32px;
+}
+.amenities p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
 .list {
 }
 .description {
+  margin-bottom: 32px;
+}
+
+.description-div {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-bottom: 32px;
+}
+.description h3 {
+  font-family: 'Times New Roman', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.1;
+  margin-bottom: 16px;
 }
 .amenities-btn {
+  background-color: #000;
+  border: 1px solid #f3c653;
+  border-radius: 25px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: #ffffff;
+
+  padding: 20px 43px;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+.amenities-btn:hover,
+.amenities-btn:focus {
+  background-color: #f3c653;
+  color: #000;
+
+  border: 1px solid #f3c653;
+  border-radius: 25px;
+}
+@media screen and (max-width: 367px) {
+  .amenities-btn {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
 }
 .amenities-btn-transition {
   display: flex;
+}
+.amenities-btn-transition p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 
+  color: #c79002;
 }
 .amenities-btn-hotpeg {
+  background-color: transparent;
+  border: none;
   margin-left: 12px;
+}
+.icon {
+  fill: #c79002;
+}
+
+@media screen and (min-width: 414px) {
+  .container {
+    width: 414px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  .description p {
+    width: 400px;
+  }
+  .description-div {
+    flex-direction: unset;
+    gap: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
 }
