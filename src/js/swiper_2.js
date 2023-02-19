@@ -2,7 +2,7 @@
       slidesPerView: 3,
       centeredSlides: true,
       spaceBetween: 10,
-      
+
    breakpoints: {
      320: {
        slidesPerView: 1,
@@ -23,4 +23,3 @@
    }
   }
 );
-
