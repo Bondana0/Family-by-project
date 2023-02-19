@@ -129,10 +129,10 @@
 
              }
     
-/* .hero-group {
-    flex-direction: column;
-}       */
-
+.hero-group {
+    
+    margin-bottom: 144px;
+}      
 
 .hero-header {
 
