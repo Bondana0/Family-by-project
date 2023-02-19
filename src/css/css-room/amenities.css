@@ -22,8 +22,7 @@
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
-.list {
-}
+
 .description {
   margin-bottom: 32px;
 }
@@ -72,6 +71,7 @@
 }
 .amenities-btn-transition {
   display: flex;
+  align-items: center;
 }
 .amenities-btn-transition p {
   font-weight: 500;
@@ -88,6 +88,9 @@
 }
 .icon {
   fill: #c79002;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 414px) {
@@ -104,7 +107,9 @@
     padding-left: 47px;
     padding-right: 47px;
   }
-
+  .amenities > p {
+    width: 757px;
+  }
   .description p {
     width: 400px;
   }
@@ -112,6 +117,14 @@
     flex-direction: unset;
     gap: 80px;
   }
+
+.amenities-btn {
+  display: flex;
+}
+.qwe {
+  width: 434px;
+}
+
 }
 
 @media screen and (min-width: 1280px) {
