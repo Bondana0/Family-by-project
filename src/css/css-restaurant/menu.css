@@ -1,8 +1,4 @@
-.menu {
-  /* padding-top: 32px;
-  padding-bottom: 32px;
-  background-color: #fffdee; */
-}
+
 
 .menu>.container {
   display: flex;
@@ -184,6 +180,9 @@
     padding-bottom: 40px;
     background-color: #f0ecd6;
   }
+  .menu>.container {
+    background-color: #f0ecd6;
+  }
 
   .menu-wpar {
     display: flex;
@@ -197,7 +196,7 @@
   }
 
   .menu-table {
-    width: 411px;
+    min-width: 411px;
     display: flex;
     flex-direction: column;
   }
@@ -226,4 +225,8 @@
 
 /* ========== DESKTOP ========= */
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+  .menu-table {
+    min-width: 485px;
+  }
+}
