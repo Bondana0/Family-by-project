@@ -121,6 +121,7 @@
   color: #F3C653;
   }
   .room-two-hotel-img {
+    width: 244px;
     margin-left: auto;
   }
   
@@ -213,6 +214,7 @@
       position: absolute;
       top: -24px;
       right: 112px;
+      width: 400px;
     }
     .three-room-two {
         display: flex;
@@ -250,6 +252,7 @@
         gap: 326px;
     }
     .room-two-hotel-img {
+        width: 460px;
         right: 180px;
     }
     .three-room-two-wrap {
