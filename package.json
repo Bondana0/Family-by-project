@@ -1,11 +1,11 @@
 {
-  "name": "Family-by-project",
+  "name": "family-by-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Family-by-project/",
+    "build": "vite build --base=/family-by-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
