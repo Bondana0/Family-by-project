@@ -1,0 +1,134 @@
+.hero-room > .container {
+  padding-top: 64px;
+  padding-bottom: 17px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.55) 10%,
+      rgba(0, 0, 0, 0) 20%
+    ),
+    url(../../img/room-image/hero-number/room-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 10%,
+        rgba(0, 0, 0, 0) 20%
+      ),
+      url(../../img/room-image/hero-number/room-hero-x2.jpg);
+  }
+}
+
+.room-adress-link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.adress-link-for-room {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 210px;
+  height: 47px;
+
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+}
+
+.adress-title-room {
+  /* margin-left: 11px; */
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+
+  color: #e5e5e5;
+}
+
+.about-room-icon {
+  margin-top: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-room-icon-button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+.about-room-slider-icon {
+  fill: #f3c653;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.title-wpar-room {
+  width: 325px;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+.room-title-hero {
+  display: block;
+  margin-top: 93px;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.room-about {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+
+.hero-room-wrap {
+  display: flex;
+  gap: 72px;
+}
+
+.socials-hero-room {
+  list-style: none;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  gap: 11px;
+}
+.hero-room-btn-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-hero-room {
+  width: 232px;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+}
