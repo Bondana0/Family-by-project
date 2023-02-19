@@ -131,6 +131,11 @@
 .hero-group {
     
     margin-bottom: 144px;
+
+}
+.info-group {
+    display: flex;
+    justify-content: center;
 }
 
 .hero-main {
