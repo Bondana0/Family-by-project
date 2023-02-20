@@ -1,15 +1,13 @@
 /* Yuliia */
-header {
+header > .container {
+  padding-top: 16px;
+  padding-bottom: 14px;
   position: absolute;
   z-index: 10;
   top: 0;
   left: 50%;
-  width: 100%;
+  width: 414px;
   transform: translateX(-50%);
-}
-header > .container {
-  padding-top: 16px;
-  padding-bottom: 14px;
 }
 
 .navigation {
@@ -69,7 +67,7 @@ header > .container {
 }
 
 /* ========== 320px ========= */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
   .logo-web {
     font-size: 7.7vw;
   }
@@ -82,9 +80,10 @@ header > .container {
 /* ========== TABLET ========= */
 
 @media screen and (min-width: 1024px) {
-  header>.container {
+  header > .container {
     padding-top: 24px;
     padding-bottom: 33px;
+    width: 1024px;
   }
 
   .logo-web {
@@ -124,6 +123,11 @@ header > .container {
 /* ========== DESKTOP ========= */
 
 @media screen and (min-width: 1280px) {
+
+  header>.container {
+    width: 1280px;
+  }
+
   .header-wrap {
     display: flex;
     justify-content: space-between;
