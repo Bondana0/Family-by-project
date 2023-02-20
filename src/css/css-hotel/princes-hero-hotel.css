@@ -28,7 +28,11 @@
         padding-right: 85px;
     }
 }
-
+@media screen and (max-width: 413px) {
+    .section-hotel {
+        padding-top: 129px;
+    }
+}
 @media screen and (min-width: 414px) {
     .section-hotel {
         width: 414px;
@@ -344,6 +348,11 @@
     padding-right: 24px;
 
 }
+.btnhoteltable:hover,
+.btnhoteltable:focus {
+    background-color: #FFFFFF;
+    border-color: rgba(243, 198, 83, 1);
+}
 
 @media screen and (min-width: 1025px) {
     .btnhoteltable {
@@ -387,6 +396,11 @@
     padding-bottom: 14px;
     padding-left: 24px;
     padding-right: 24px;
+}
+.btnhotelroom:hover,
+.btnhotelroom:focus {
+    background-color: #FFFFFF;
+    border-color: rgba(243, 198, 83, 1);
 }
 
 @media screen and (min-width: 1024px) {

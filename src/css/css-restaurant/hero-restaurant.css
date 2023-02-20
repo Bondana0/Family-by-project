@@ -28,7 +28,11 @@
         padding-right: 85px;
     }
 }
-
+@media screen and (max-width: 413px) {
+    .hero-section {
+        padding-top: 129px;
+    }
+}
 @media screen and (min-width: 414px) {
     .hero-section {
         width: 414px;
