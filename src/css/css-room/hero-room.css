@@ -18,7 +18,7 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero {
+  .hero-room > .container {
     background-image: linear-gradient(
         180deg,
         #000000 0%,
@@ -29,7 +29,7 @@
   }
 }
 
-.room-adress-link {
+.room-adress-link-top {
   display: flex;
   justify-content: flex-end;
 }
@@ -132,6 +132,9 @@
   letter-spacing: 0.02em;
   color: #f3c653;
 }
+.adress-link-for-room-bottom {
+  display: none;
+}
 
 /* ========== 320px ========= */
 @media screen and (max-width: 414px) {
@@ -143,5 +146,115 @@
   }
   .btn-hero-room {
     font-size: 3.86vw;
+  }
+}
+/* ========== TABLET ========= */
+
+@media screen and (min-width: 1024px) {
+  .room-adress-link-top {
+    display: none;
+  }
+  .about-room-icon {
+    margin-top: 340px;
+  }
+  .room-title-hero {
+    margin-top: 88px;
+  }
+  .title-wpar-room {
+    gap: 24px;
+  }
+  .socials-hero-room {
+    flex-direction: row;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-room-wrap {
+    gap: 41px;
+  }
+
+  .hero-room > .container {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 10%,
+        rgba(0, 0, 0, 0) 20%
+      ),
+      url(../../img/room-image/hero-number/room-hero-tablet.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-room > .container {
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 10%,
+          rgba(0, 0, 0, 0) 20%
+        ),
+        url(../../img/room-image/hero-number/room-hero-tablet-2x.jpeg);
+    }
+  }
+
+  .adress-link-for-room-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 210px;
+    height: 47px;
+  
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+  }
+
+  .hero-room-btn-wrap {
+    position: relative;
+    bottom: 40px;
+    left: 290px;
+  }
+}
+
+/* ========== DESKTOP ========= */
+
+@media screen and (min-width: 1280px) {
+  .hero-room > .container {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 10%,
+        rgba(0, 0, 0, 0) 20%
+      ),
+      url(../../img/room-image/hero-number/room-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-room > .container {
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 10%,
+          rgba(0, 0, 0, 0) 20%
+        ),
+        url(../../img/room-image/hero-number/room-hero-desktop-2x.jpg);
+    }
+  }
+  .adress-link-for-room-bottom {
+    display: none;
+  }
+  .socials-hero-room {
+    display: none;
+  }
+  .hero-room-btn-wrap {
+    bottom: 73px;
+    left: 880px;
   }
 }
