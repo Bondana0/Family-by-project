@@ -132,6 +132,20 @@
   color: var(--title-dark-grey-color);
 }
 
+@media screen and (max-width: 406px) {
+  .contacts-tel2 {
+    margin-left: 8px;
+  }
+
+  .contacts-mobil-320 {
+    display: flex;
+    flex-direction: column;
+  }
+  .google-maps {
+    width: 295px;
+  }
+}
+
 @media screen and (min-width: 414px) {
   .container {
     width: 414px;
@@ -194,7 +208,6 @@
   }
 
   .google-maps {
-    /* margin-left: 101px; */
     width: 535px;
     height: 412px;
   }
