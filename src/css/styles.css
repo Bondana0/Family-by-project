@@ -7,8 +7,12 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./button.css');
+@import url('./modal-reserve-room.css');
+@import url('./modal-reserve-table.css');
+@import url('./modal-room-price.css');
+@import url('./modal.css');
 @import url('./header.css');
-@import url('./css-homepage/hero.css');
+@import url('./css-homepage/hero-homepage.css');
 @import url('./css-homepage/about-restaurant.css');
 @import url('./css-homepage/details-restaurant.css');
 @import url('./css-homepage/about-hotel.css');
@@ -17,7 +21,7 @@
 @import url('./css-restaurant/hero-restaurant.css');
 @import url('./css-restaurant/about-kitchen.css');
 @import url('./css-restaurant/menu.css');
-@import url('./css-hotel/hero-hotel.css');
+@import url('./css-hotel/princes-hero-hotel.css');
 @import url('./css-hotel/1-room-luxe-for-2-adult.css');
 @import url('./css-hotel/1-room-for-2-adult.css');
 @import url('./css-hotel/1-room-for-3-adult.css');

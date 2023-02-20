@@ -33,7 +33,8 @@
 @media screen and (min-width: 414px) {
     .seсtion-hero {
         width: 414px;
-        padding-bottom: 0px;
+        padding-top: 181px;
+        padding-bottom: 20px;
         }
 }
 @media screen and (max-width: 1024px) {
@@ -129,11 +130,9 @@
              }
     
 .hero-group {
-    display: flex;
-    flex-direction: column;
+    
     margin-bottom: 144px;
 }      
-
 
 .hero-header {
 
@@ -208,14 +207,19 @@
 
     }
 }
+.mainhero-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 144px;
+}
 
-
-.info-group {
+ .maininfo-group {
     display: flex;
     justify-content: center;
-}
+} 
+
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .info-group {
+    .maininfo-group {
         margin-bottom: 25px;
     }
 }
@@ -260,7 +264,7 @@
 } 
 @media screen and (min-width: 1025px) {
     .adress-link {
-        margin-right: 253px;
+        margin-right: 137px;
         width: 285px;
         height: 56px;
     }
@@ -276,9 +280,14 @@
 @media screen and (max-width: 1024px) {
     .adress-link {
         position: absolute;
-        top: 12%;
+        top: 13%;
         left: 47%;
         transform: translateY(-50%);
+    }
+}
+@media screen and (min-width: 1280px) {
+    .adress-link {
+        margin-right: 253px;
     }
 }
 
@@ -411,6 +420,11 @@
     width: 112px;
     height: 24px;
     
+}
+@media screen and (min-width: 1024px) {
+    .socials {
+        margin-left: 20px;
+    }
 }
 
 @media screen and (min-width: 1280px) {

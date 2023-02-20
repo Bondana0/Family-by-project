@@ -57,12 +57,15 @@ border-color: var(--accent-yellow-color);
   gap: 32px;
 }
 
-.lux-slider-arrow {
+.lux-slider-button {
+  cursor: pointer;
   fill: var(--primary-black-color);
+  background-color: transparent;
+  border: none;
 }
 
-.lux-slider-arrow:hover,
-.lux-slider-arrow:focus {
+.lux-slider-button:hover,
+.lux-slider-button:focus {
   fill: var(--accent-yellow-color);
 }
 
@@ -246,7 +249,7 @@ margin-bottom: 16px;
 
 .lux-picture-wrap {
   position: absolute;
-  top: -95px;
+  top: -105px;
   right: 180px;
   width: 460px;
   height: 574px;
