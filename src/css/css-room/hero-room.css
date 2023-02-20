@@ -132,6 +132,14 @@
   letter-spacing: 0.02em;
   color: #f3c653;
 }
+
+.btn-hero-room:hover,
+.btn-hero-room:focus {
+  background-color: #ffffff;
+  border: 2px solid #f3c653;
+  color: #f3c653;
+}
+
 .adress-link-for-room-bottom {
   display: none;
 }
@@ -206,7 +214,7 @@
     justify-content: space-evenly;
     width: 210px;
     height: 47px;
-  
+
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
   }
