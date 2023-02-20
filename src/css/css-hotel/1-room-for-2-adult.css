@@ -1,3 +1,4 @@
+
 /* Yuliia Tarasenko */
 /* .container {
     outline: 2px solid tomato;
@@ -121,7 +122,6 @@
   color: #F3C653;
   }
   .room-two-hotel-img {
-    width: 244px;
     margin-left: auto;
   }
   
@@ -145,6 +145,7 @@
     .room-two-wrap-list {
         margin: 0 auto;
     }
+  
   }
   
   @media screen and (min-width: 414px) {
@@ -167,7 +168,6 @@
       font-size: 12px;
       width: 163px;
     }
-  
   }
   
   @media screen and (min-width: 1024px) {
@@ -214,7 +214,6 @@
       position: absolute;
       top: -24px;
       right: 112px;
-      width: 400px;
     }
     .three-room-two {
         display: flex;
@@ -252,7 +251,6 @@
         gap: 326px;
     }
     .room-two-hotel-img {
-        width: 460px;
         right: 180px;
     }
     .three-room-two-wrap {
@@ -261,7 +259,10 @@
     .room-two-hotel-icon {
       display: block;
       display: flex;
-      justify-content: flex-start;
+      justify-content: flex-end;
       gap: 32px;
     }
-  }
+    .room-two-scroll-img {
+      width: 254px;
+    }
+}
