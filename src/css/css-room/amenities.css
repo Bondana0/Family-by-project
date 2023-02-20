@@ -64,12 +64,6 @@
   border: 1px solid #f3c653;
   border-radius: 25px;
 }
-@media screen and (max-width: 367px) {
-  .amenities-btn {
-    padding-left: 19px;
-    padding-right: 19px;
-  }
-}
 
 .amenities-btn-transition {
   display: flex;
@@ -114,6 +108,16 @@
 }
 .amenities-btn-hotpeg:hover + .icon {
   fill: #f3c653;
+}
+
+@media screen and (max-width: 414px) {
+  .amenities-btn {
+    font-size: 4.2vw;
+  }
+
+  .amenities-btn-hotpeg {
+    font-size: 3.5vw;
+  }
 }
 
 @media screen and (min-width: 414px) {
