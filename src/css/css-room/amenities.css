@@ -160,4 +160,7 @@
     align-content: flex-end;
     margin-right: 199px;
   }
+  .description-div {
+    gap: 159px;
+  }
 }
