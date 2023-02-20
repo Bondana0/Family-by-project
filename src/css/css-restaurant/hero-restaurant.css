@@ -369,6 +369,11 @@
     padding-right: 24px;
 
 }
+.btnrstable:hover,
+.btnrstable:focus {
+    background-color: #FFFFFF;
+    border-color: rgba(243, 198, 83, 1);
+}
 
 @media screen and (min-width: 1025px) {
     .btnrstable {
@@ -412,6 +417,12 @@
     padding-bottom: 14px;
     padding-left: 24px;
     padding-right: 24px;
+}
+.btnmenu:hover,
+.btnmenu:focus {
+    background-color: #FFFFFF;
+    border-color: rgba(243, 198, 83, 1);
+
 }
 @media screen and (min-width: 1024px) {
     .btnmenu {
