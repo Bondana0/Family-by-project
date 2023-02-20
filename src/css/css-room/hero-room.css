@@ -1,0 +1,268 @@
+.hero-room > .container {
+  padding-top: 64px;
+  padding-bottom: 17px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.55) 10%,
+      rgba(0, 0, 0, 0) 20%
+    ),
+    url(../../img/room-image/hero-number/room-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-room > .container {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 10%,
+        rgba(0, 0, 0, 0) 20%
+      ),
+      url(../../img/room-image/hero-number/room-hero-x2.jpg);
+  }
+}
+
+.room-adress-link-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.adress-link-for-room {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 210px;
+  height: 47px;
+
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+}
+
+.adress-title-room {
+  /* margin-left: 11px; */
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+
+  color: #e5e5e5;
+}
+
+.about-room-icon {
+  margin-top: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-room-icon-button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+.about-room-slider-icon {
+  fill: #f3c653;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.title-wpar-room {
+  max-width: 325px;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+.room-title-hero {
+  display: block;
+  margin-top: 93px;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.room-about {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+
+.hero-room-wrap {
+  display: flex;
+  gap: 72px;
+}
+
+.socials-hero-room {
+  list-style: none;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  gap: 11px;
+}
+.hero-room-btn-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-hero-room {
+  max-width: 232px;
+  padding: 14px 32px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+}
+
+.btn-hero-room:hover,
+.btn-hero-room:focus {
+  background-color: #ffffff;
+  border: 2px solid #f3c653;
+  color: #f3c653;
+}
+
+.adress-link-for-room-bottom {
+  display: none;
+}
+
+/* ========== 320px ========= */
+@media screen and (max-width: 414px) {
+  .room-title-hero {
+    font-size: 6.76vw;
+  }
+  .room-about {
+    font-size: 2.9vw;
+  }
+  .btn-hero-room {
+    font-size: 3.86vw;
+  }
+}
+/* ========== TABLET ========= */
+
+@media screen and (min-width: 1024px) {
+  .room-adress-link-top {
+    display: none;
+  }
+  .about-room-icon {
+    margin-top: 340px;
+  }
+  .room-title-hero {
+    margin-top: 88px;
+  }
+  .title-wpar-room {
+    gap: 24px;
+  }
+  .socials-hero-room {
+    flex-direction: row;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-room-wrap {
+    gap: 41px;
+  }
+
+  .hero-room > .container {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 10%,
+        rgba(0, 0, 0, 0) 20%
+      ),
+      url(../../img/room-image/hero-number/room-hero-tablet.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-room > .container {
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 10%,
+          rgba(0, 0, 0, 0) 20%
+        ),
+        url(../../img/room-image/hero-number/room-hero-tablet-2x.jpeg);
+    }
+  }
+
+  .adress-link-for-room-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 210px;
+    height: 47px;
+
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+  }
+
+  .hero-room-btn-wrap {
+    position: relative;
+    bottom: 40px;
+    left: 290px;
+  }
+}
+
+/* ========== DESKTOP ========= */
+
+@media screen and (min-width: 1280px) {
+  .hero-room > .container {
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 10%,
+        rgba(0, 0, 0, 0) 20%
+      ),
+      url(../../img/room-image/hero-number/room-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-room > .container {
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 10%,
+          rgba(0, 0, 0, 0) 20%
+        ),
+        url(../../img/room-image/hero-number/room-hero-desktop-2x.jpg);
+    }
+  }
+  .adress-link-for-room-bottom {
+    display: none;
+  }
+  .socials-hero-room {
+    display: none;
+  }
+  .hero-room-btn-wrap {
+    bottom: 73px;
+    left: 880px;
+  }
+}
