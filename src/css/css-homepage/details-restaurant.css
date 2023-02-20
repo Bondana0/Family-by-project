@@ -45,13 +45,38 @@
     gap: 32px;
 }
 
-.dr-slider-arrow {
+.dr-slider-button {
+    cursor: pointer;
     fill: var(--primary-white-color);
+    background-color: transparent;
+    border: none;
 }
 
-.dr-slider-arrow:hover,
-.dr-slider-arrow:focus {
-    fill: var(--accent-yellow-color);
+.dr-slider-button:hover,
+.dr-slider-button:focus { 
+  fill: var(--accent-yellow-color); 
+}
+
+@media screen and (max-width: 320px) {
+
+    .dr-bg-overlay {
+        min-width: 414px;
+    }
+    
+    .dr-title {
+        font-size: 6vw;
+    }
+
+    .dr-text {
+        font-size: 9vw;
+    }
+
+    .dr-buttons {
+        margin-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -62,6 +87,7 @@
     }
 
     .dr-bg-overlay {
+        min-width: 414px;
         max-width: 1024px;
         height: 735px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.65),
@@ -239,7 +265,6 @@
 @media screen and (min-width: 1280px) {
 
     .dr-bg-overlay {
-        max-width: 1440px;
         height: 620px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)), url(../../img/homepage-image/details-restaurant-image/o-desktop-restaurant-background.jpg);
