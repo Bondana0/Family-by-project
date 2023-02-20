@@ -24,7 +24,7 @@
     />
     
     <script type="module" crossorigin src="/Family-by-project/assets/swiper_2-2b9b8c47.js"></script>
-    <link rel="stylesheet" href="/Family-by-project/assets/swiper_2-f3ac42e6.css">
+    <link rel="stylesheet" href="/Family-by-project/assets/swiper_2-10ef0374.css">
   </head>
   <body>
     <header>
@@ -630,7 +630,61 @@
     </footer>
     
     
-    
+    <div class="modal modal-prices" data-modal="3">
+  <svg class="modal-prices-cross js-modal-close" width="24" height="24">
+    <use href="/Family-by-project/assets/sprite-arrow-down-3ac63a05.svg#icon-closee"></use>
+  </svg>
+  <h2 class="modal-prices-title">Ціни на номер</h2>
+  <form class="modal-prices-form">
+    <p class="modal-prices-text">Двомісний люкс</p>
+    <p class="modal-prices-label">Категорія номеру</p>
+    <div class="modal-prices-flex">
+      <div class="modal-prices-firs-block">
+        <div class="prices-select-input-wrap">
+          <select
+            id="modal-prices-room-type"
+            name="modal-prices-room-type"
+            class="modal-prices-room-type prices-input-width"
+          >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+          <svg class="icon-for-select" width="24px" height="24px">
+            <use href="/Family-by-project/assets/ep_arrow-down-bold-a7a2db1f.svg#icon-down"></use>
+          </svg>
+        </div>
+        <label
+          for="modal-prices-room-type"
+          class="modal-prices-label qty-nights"
+          >Кількість ночей</label
+        >
+      </div>
+
+      <div class="modal-prices-second-block">
+        <input
+          type="number"
+          id="price-input-summ"
+          name="price-input-summ"
+          class="price-input-summ"
+          placeholder="1000"
+        />
+        <label for="price-input-summ" class="modal-prices-label price-grn"
+          >грн</label
+        >
+      </div>
+    </div>
+
+    <button type="submit" class="modal-prices-send-btn">
+      Забронювати номер
+    </button>
+  </form>
+</div>
+
     <!-- Подложка под модальным окном -->
     <div class="overlay js-overlay-modal"></div>
     
