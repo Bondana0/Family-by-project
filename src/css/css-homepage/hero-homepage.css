@@ -353,6 +353,7 @@
 .btntable {
     font-family: montserrat;
     font-style: bold;
+    font-weight: 700;
     font-size: 16px;
     width: 236px;
     height: 48px;
@@ -366,10 +367,10 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px;
-
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
 .btntable:hover,
 .btntable:focus {
     background-color: #FFFFFF;
@@ -394,14 +395,13 @@
     .btntable {
         width: 258px; 
         height: 48px;
-         padding-left: 35px;
-        padding-right: 35px; 
     }
 }
 
 .btnroom {
     font-family: montserrat;
     font-style: bold;
+    font-weight: 700;
     font-size: 16px;
     width: 232px;
     height: 48px;
@@ -416,8 +416,8 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px; 
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .btnroom:hover,
 .btnroom:focus {
@@ -429,8 +429,6 @@
     .btnroom {
         width: 254px;
         height: 48px;
-        padding-left: 35px;
-        padding-right: 35px;
     }
 }
 
