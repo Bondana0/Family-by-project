@@ -212,7 +212,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 210px;
+    width: 285px;
     height: 47px;
 
     border: 1px solid rgba(243, 198, 83, 0.7);
@@ -222,7 +222,10 @@
   .hero-room-btn-wrap {
     position: relative;
     bottom: 40px;
-    left: 290px;
+    left: 180px;
+  }
+  .adress-title-room {
+    font-size: 16px;
   }
 }
 
