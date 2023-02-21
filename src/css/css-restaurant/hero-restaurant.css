@@ -356,6 +356,7 @@
 .btnrstable {
     font-family: montserrat;
     font-style: bold;
+    font-weight: 700;
     font-size: 16px;
     width: 236px;
     height: 48px;
@@ -369,8 +370,7 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px;
+    
 
 }
 .btnrstable:hover,
@@ -397,14 +397,13 @@
     .btnrstable {
         width: 258px;
         height: 48px;
-        padding-left: 35px;
-        padding-right: 35px;
     }
 }
 
 .btnmenu {
     font-family: montserrat;
     font-style: bold;
+    font-weight: 700;
     font-size: 16px;
     width: 232px;
     height: 48px;
@@ -419,8 +418,6 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 .btnmenu:hover,
 .btnmenu:focus {
@@ -439,8 +436,6 @@
     .btnmenu {
         width: 243px;
         height: 48px;
-        padding-left: 35px;
-        padding-right: 35px;
     }
 }
 
