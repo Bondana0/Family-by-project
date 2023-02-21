@@ -24,7 +24,7 @@
     />
     
     <script type="module" crossorigin src="/Family-by-project/assets/swiper_2-2b9b8c47.js"></script>
-    <link rel="stylesheet" href="/Family-by-project/assets/swiper_2-c584d18b.css">
+    <link rel="stylesheet" href="/Family-by-project/assets/swiper_2-e9bb44ac.css">
   </head>
   <body>
     <header>
@@ -606,7 +606,69 @@
 </section>
 
     </footer>
-    
+    <!-- Modal-reserve-room -->
+<div class="modal h-modal-room window" data-modal="1">
+    <button class="h-btn-close" type="button">
+        <svg class="h-btn-svg js-modal-close" width="24" height="24">
+            <use href="../img/sprite-arrow-down.svg#icon-closee"></use>
+        </svg>
+    </button>
+    <p class="h-modal-room-title">ЗАБРОНЮВАТИ НОМЕР</p>
+<!-- form -->
+    <form class="h-modal-rm-form">
+        <div class="h-modal-input-client">
+            <div class="h-form-block">
+                <input class="h-form-input-client" type="text" name="name" id="user-name" placeholder="Ваше ім'я" />
+                <label class="h-modal-rm-label" for="user-name">На кого забронювати номер?</label>
+            </div>
+            
+            <div class="h-form-block">
+                <input class="h-form-input-client" type="tel" name="tel" id="tel" placeholder="+38(___)___-__-__" />
+                <label class="h-modal-rm-label" for="tel">Номер телефону</label>
+            </div>
+        </div>
+        <!-- Select room -->
+        <div class="h-modal-selctor">
+            <div class="h-form-block">
+                <select class="h-form-input-select" id="room" name="room">
+                    <option value="2x-room">Двомісний номер</option>
+                    <option value="3x-room">Тримісний номер</option>
+                    <option value="2x-room-lux" selected>Двомісний люкс</option>
+                </select>
+            
+                <svg class="h-select-svg" width="24px" height="24px">
+                    <use href="/Family-by-project/assets/ep_arrow-down-bold-a7a2db1f.svg#icon-down"></use>
+                </svg>
+                <label class="h-modal-rm-label" for="room">Категорія нмеру</label>
+            </div>
+        </div>
+        
+<!-- date -->
+        <div class="h-modal-input-date">
+
+            <div class="h-form-block">
+                <input class="h-form-input-date" type="text" name="date" id="date" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" placeholder="Сьогодні">
+                <svg class="h-select-svg" width="24px" height="24px">
+                    <use href="/Family-by-project/assets/ep_arrow-down-bold-a7a2db1f.svg#icon-down"></use>
+                </svg>
+                <label class="h-modal-rm-label" for="date">Дата заїзду</label>
+            </div>
+            
+            <div class="h-form-block">
+                <input class="h-form-input-date" type="text" name="date" id="date" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" placeholder="Сьогодні">
+                <svg class="h-select-svg" width="24px" height="24px">
+                    <use href="/Family-by-project/assets/ep_arrow-down-bold-a7a2db1f.svg#icon-down"></use>
+                </svg>
+                <label class="h-modal-rm-label" for="date">Дата виїзду</label>
+            </div>
+
+        </div>
+        
+<!-- button -->
+        <button class="h-send-button" type="submit" value="Оформити бронювання">Оформити бронювання</button>
+
+    </form>
+</div>
     <div class="modal modal-order-table" data-modal="2">
     <button type="button" class="js-modal-close modal-order-table-close" data-modal-close>
       <svg class="modal-close-icon" width="24" height="24">
