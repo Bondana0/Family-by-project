@@ -74,6 +74,21 @@
     fill: #F3C653;
 }
 
+@media screen and (max-width: 414px) {
+    .logo-mimiho {
+        font-size: 9.7vw;
+    }
+
+    .footer-menu-link {
+        font-size: 3.86vw;
+    }
+
+    .footer-icon {
+        width: 15px;
+        height: 15px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .footer>.container {
         padding-top: 80px;
@@ -111,7 +126,6 @@
         display: flex;
         flex-direction: column;
         padding: 0px;
-        gap: 23px;
     }
 
     .footer-soc-item {
@@ -136,10 +150,9 @@
 
     .footer-soc-link {
         display: flex;
-        padding-left: 20px;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 22px;
     }
 
 
@@ -151,6 +164,22 @@
         letter-spacing: 0.02em;
 
 
+    }
+
+    .footer-telegram {
+        display: flex;
+        gap: 19px;
+
+    }
+
+    .footer-facebook {
+        display: flex;
+        gap: 17px;
+    }
+
+    .footer-instagram {
+        display: flex;
+        gap: 12px;
     }
 }
 
