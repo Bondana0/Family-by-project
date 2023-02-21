@@ -23,6 +23,11 @@
   margin-bottom: 16px;
 }
 
+@media screen and (max-width: 326px) {
+  .contacts-title2 {
+    font-size: 4.9vw;
+  }
+}
 .contacts-icon {
   margin-left: 8px;
   fill: #c79002;
@@ -109,7 +114,7 @@
 }
 
 .contacts-adres {
-  width: 260px;
+  /* width: 260px; */
   height: 76px;
   background-color: #ffffff;
   border: 0.5px solid #f3c653;
@@ -142,7 +147,7 @@
     flex-direction: column;
   }
   .google-maps {
-    width: 295px;
+    width: 100%;
   }
 }
 
@@ -221,8 +226,6 @@
   }
   .contacts {
     padding-bottom: 73px;
-    display: flex;
-    justify-content: space-between;
   }
   .google-maps {
     margin-left: 108px;

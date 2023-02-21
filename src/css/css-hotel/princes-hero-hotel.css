@@ -331,6 +331,7 @@
 .btnhoteltable {
     font-family: montserrat;
     font-style: bold;
+    font-weight: 700;
     font-size: 16px;
     width: 236px;
     height: 48px;
@@ -344,8 +345,7 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px;
+    
 
 }
 .btnhoteltable:hover,
@@ -372,14 +372,13 @@
     .btnhoteltable {
         width: 258px;
         height: 48px;
-        padding-left: 35px;
-        padding-right: 35px;
     }
 }
 
 .btnhotelroom {
     font-family: montserrat;
     font-style: bold;
+    font-weight: 700;
     font-size: 16px;
     width: 232px;
     height: 48px;
@@ -394,8 +393,6 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 .btnhotelroom:hover,
 .btnhotelroom:focus {
@@ -414,8 +411,6 @@
     .btnhotelroom {
         width: 243px;
         height: 48px;
-        padding-left: 35px;
-        padding-right: 35px;
     }
 }
 
