@@ -31,6 +31,7 @@
 @media screen and (max-width: 413px) {
     .section-hotel {
         padding-top: 129px;
+        padding-bottom: 20px;
     }
 }
 @media screen and (min-width: 414px) {
@@ -261,7 +262,7 @@
 @media screen and (max-width: 1024px) {
     .hotel-adresslink {
         position: absolute;
-        top: 13%;
+        top: 10%;
         left: 47%;
         transform: translateY(-50%);
     }
