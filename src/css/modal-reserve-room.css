@@ -19,24 +19,12 @@
     position: relative;
 }
 
-.h-btn-close {
+.h-btn-svg {
     position: absolute;
     top: 16px;
     right: 16px;
     width: 24px;
     height: 24px;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border: 1px solid transparent;
-
-    cursor: pointer;
-}
-
-.h-btn-svg {
-    position: absolute;
-    top: 0px;
-    right: 0px;
     max-width: 24px;
     max-height: 24px;
 
@@ -47,19 +35,6 @@
     cursor: pointer;
 }
 
-/* .h-btn-close:focus,
-.h-btn-close:hover {
-    color: #C79002;
-} */
-
-.h-btn-close:focus .h-btn-svg,
-.h-btn-close:hover .h-btn-svg {
-    fill: #C79002;
-}
-
-
-
-/* мясо */
 .h-modal-room-title {
     margin: auto 31px 40px;
 
