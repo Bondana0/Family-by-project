@@ -14,7 +14,6 @@
     border-radius: 2px;
 }
 
-
 /* крестик */
 .window {
     position: relative;
@@ -91,15 +90,16 @@
 
     fill: #C79002;
     pointer-events: none;
-}
 
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+ 
 .h-modal-rm-label {
     margin-top: 8px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.21;
     letter-spacing: 0.02em;
 
@@ -182,7 +182,15 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        margin-top: 45px;
+        margin-top: 17px;
+    }
+
+    .h-modal-rm-label {
+        font-size: 14px;
+    }
+
+    .h-modal-rm-label {
+        font-size: 14px;
     }
 
     .h-send-button {
@@ -204,6 +212,10 @@
         width: 288px;
     }
 
+    .h-modal-rm-label {
+        font-size: 16px;
+    }
+    
     .h-modal-input-client,
     .h-modal-input-date {
         display: flex;
