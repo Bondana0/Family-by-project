@@ -114,7 +114,6 @@
 }
 
 .contacts-adres {
-  /* width: 260px; */
   height: 76px;
   background-color: #ffffff;
   border: 0.5px solid #f3c653;
@@ -135,6 +134,12 @@
   letter-spacing: 0.01em;
   line-height: 1.2;
   color: var(--title-dark-grey-color);
+}
+
+.google-maps {
+  border: 1px solid #bababa;
+  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 406px) {
