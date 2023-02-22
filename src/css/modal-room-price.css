@@ -160,7 +160,7 @@
 @media screen and (min-width: 1024px) {
   .modal-prices {
     max-width: 712px;
-    min-height: 489px;
+    max-height: 100%;
     padding-left: 60px;
     padding-right: 60px;
   }
