@@ -63,14 +63,16 @@
 
   border: 0.5px solid #f3c653;
   border-radius: 2px;
+  padding-right: 8px;
 }
 
 .contacts-rest-tel a {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-dark-grey-color);
-  margin-left: 8px;
+  margin-left: 6px;
 }
 
 .contacts-hotel {
@@ -87,6 +89,7 @@
   display: flex;
   align-items: center;
   margin-left: 54px;
+  padding-right: 8px;
 }
 
 .contacts-hotel h3 {
@@ -107,10 +110,10 @@
 
 .contacts-tel2 {
   font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
   color: var(--title-dark-grey-color);
-  margin-left: 12px;
+  margin-left: 9px;
 }
 
 .contacts-adres {
@@ -211,13 +214,13 @@
   .contacts-adres {
     margin-left: 0;
     width: 285px;
-  }
-
-  .contacts-adres {
     margin-bottom: 0;
   }
 
-  .google-maps {
+  .contacts-adres div {
+    width: 233px;
+  }
+   .google-maps {
     width: 535px;
     height: 412px;
   }
