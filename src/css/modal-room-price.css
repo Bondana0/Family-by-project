@@ -16,9 +16,11 @@
 
   width: 100%;
   max-width: 414px;
-  min-height: 572px;
+  max-height: 100%;
   padding: 60px 15px;
   text-align: left;
+  visibility: hidden;
+  overflow-y: auto;
 
   border: 1px solid #f3c653;
   border-radius: 2px;
@@ -158,7 +160,7 @@
 @media screen and (min-width: 1024px) {
   .modal-prices {
     max-width: 712px;
-    min-height: 489px;
+    max-height: 100%;
     padding-left: 60px;
     padding-right: 60px;
   }

@@ -369,6 +369,10 @@
     padding-bottom: 14px;
     padding-left: 0px;
     padding-right: 0px;
+
+    transition-property: background-color, border-color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btntable:hover,
@@ -418,6 +422,10 @@
     padding-bottom: 14px;
     padding-left: 0px;
     padding-right: 0px;
+
+    transition-property: background-color, border-color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btnroom:hover,
 .btnroom:focus {

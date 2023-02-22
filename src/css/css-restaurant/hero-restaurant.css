@@ -372,6 +372,9 @@
     padding-top: 14px;
     padding-bottom: 14px;
     
+    transition-property: background-color, border-color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .btnrstable:hover,
@@ -419,6 +422,11 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
+
+    transition-property: background-color, border-color;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .btnmenu:hover,
 .btnmenu:focus {
