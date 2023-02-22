@@ -8,10 +8,12 @@
 
     width: 100%;
     max-width: 414px;
-    max-height: auto;
+    max-height: 100%;
     background-color: #fffdee;
-    /* background-color: #FFFDEE; */
     border-radius: 2px;
+    
+    visibility: hidden;
+    overflow-y: auto;
 }
 
 /* крестик */
