@@ -1,9 +1,5 @@
 
 /* Yuliia Tarasenko */
-/* .container {
-    outline: 2px solid tomato;
-} */
-
 .room-two-img {
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
@@ -86,7 +82,7 @@
     background-color: transparent;
     cursor: pointer;
   
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 200ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .room-two-hotel-icon-button:hover,
@@ -110,10 +106,7 @@
   min-width: 236px;
   height: 48px;
   
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .room-two-btn-item:not(:last-child) {
-  margin-bottom: 16px;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .room-two-btn:hover,
   .room-two-btn:focus {
@@ -122,7 +115,13 @@
   color: #F3C653;
   }
   .room-two-hotel-img {
+    max-width: 244px;
     margin-left: auto;
+  }
+  .item-room-two {
+    padding: 14px 64px;
+    margin-bottom: 16px;
+    display: block;
   }
   
   @media screen and (min-width: 280px) and (max-width: 1023px) {
@@ -227,6 +226,9 @@
     .room-two-hotel-icon {
       display: none;
     }
+    .room-two-hotel-img { 
+      max-width: 400px;
+    }
   }
   
   @media screen and (min-width: 1280px) {
@@ -261,6 +263,9 @@
       display: flex;
       justify-content: flex-end;
       gap: 32px;
+    }
+    .room-two-hotel-img { 
+      max-width: 460px;
     }
     .room-two-scroll-img {
       width: 254px;
