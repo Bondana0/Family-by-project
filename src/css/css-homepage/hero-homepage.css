@@ -29,17 +29,17 @@
     }
 }
 
-@media screen and (min-width: 414px) {
-    .seсtion-hero {
-        width: 414px;
-        padding-top: 181px;
-        padding-bottom: 20px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .section-hero {
         position: relative;
+        padding-top: 181px;
+        padding-bottom: 20px;
+        width: 414px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .seсtion-hero {
         padding-top: 181px;
         padding-bottom: 20px;
     }
