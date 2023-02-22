@@ -27,6 +27,9 @@
     border: 2px solid var(--primary-white-color);
     border-radius: 25px;
     background: rgba(0, 0, 0, 0.4);
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dr-button:hover,
@@ -50,6 +53,7 @@
     fill: var(--primary-white-color);
     background-color: transparent;
     border: none;
+    transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 .dr-slider-button:hover,
