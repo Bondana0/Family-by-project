@@ -42,7 +42,7 @@ header > .container {
 .contact-item {
   display: flex;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.21;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -110,6 +110,9 @@ header > .container {
   .contact-number {
     display: flex;
     padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 8px;
     align-items: center;
     justify-content: center;
     gap: 10px;
