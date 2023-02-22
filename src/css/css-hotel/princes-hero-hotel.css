@@ -31,6 +31,7 @@
 @media screen and (max-width: 413px) {
     .section-hotel {
         padding-top: 129px;
+        padding-bottom: 20px;
     }
 }
 @media screen and (min-width: 414px) {
@@ -261,7 +262,7 @@
 @media screen and (max-width: 1024px) {
     .hotel-adresslink {
         position: absolute;
-        top: 13%;
+        top: 10%;
         left: 47%;
         transform: translateY(-50%);
     }
@@ -331,6 +332,7 @@
 .btnhoteltable {
     font-family: montserrat;
     font-style: bold;
+    font-weight: 700;
     font-size: 16px;
     width: 236px;
     height: 48px;
@@ -344,8 +346,7 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px;
+    
 
 }
 .btnhoteltable:hover,
@@ -372,14 +373,13 @@
     .btnhoteltable {
         width: 258px;
         height: 48px;
-        padding-left: 35px;
-        padding-right: 35px;
     }
 }
 
 .btnhotelroom {
     font-family: montserrat;
     font-style: bold;
+    font-weight: 700;
     font-size: 16px;
     width: 232px;
     height: 48px;
@@ -394,8 +394,6 @@
 
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 .btnhotelroom:hover,
 .btnhotelroom:focus {
@@ -414,8 +412,6 @@
     .btnhotelroom {
         width: 243px;
         height: 48px;
-        padding-left: 35px;
-        padding-right: 35px;
     }
 }
 

@@ -23,6 +23,11 @@
   margin-bottom: 16px;
 }
 
+@media screen and (max-width: 326px) {
+  .contacts-title2 {
+    font-size: 4.9vw;
+  }
+}
 .contacts-icon {
   margin-left: 8px;
   fill: #c79002;
@@ -109,7 +114,6 @@
 }
 
 .contacts-adres {
-  width: 260px;
   height: 76px;
   background-color: #ffffff;
   border: 0.5px solid #f3c653;
@@ -132,6 +136,12 @@
   color: var(--title-dark-grey-color);
 }
 
+.google-maps {
+  border: 1px solid #bababa;
+  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
 @media screen and (max-width: 406px) {
   .contacts-tel2 {
     margin-left: 8px;
@@ -142,7 +152,7 @@
     flex-direction: column;
   }
   .google-maps {
-    width: 295px;
+    width: 100%;
   }
 }
 
@@ -221,8 +231,6 @@
   }
   .contacts {
     padding-bottom: 73px;
-    display: flex;
-    justify-content: space-between;
   }
   .google-maps {
     margin-left: 108px;

@@ -1,0 +1,236 @@
+/* Модалка */
+.h-modal-room {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px 15px;
+
+    width: 100%;
+    max-width: 414px;
+    max-height: auto;
+    background-color: #fffdee;
+    /* background-color: #FFFDEE; */
+    border-radius: 2px;
+}
+
+
+/* крестик */
+.window {
+    position: relative;
+}
+
+.h-btn-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+
+    cursor: pointer;
+}
+
+.h-btn-svg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 24px;
+    max-height: 24px;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    fill: #C79002;
+
+    cursor: pointer;
+}
+
+/* .h-btn-close:focus,
+.h-btn-close:hover {
+    color: #C79002;
+} */
+
+.h-btn-close:focus .h-btn-svg,
+.h-btn-close:hover .h-btn-svg {
+    fill: #C79002;
+}
+
+
+
+/* мясо */
+.h-modal-room-title {
+    margin: auto 31px 40px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* Форма */
+.h-modal-rm-form {
+    display: block;
+}
+
+.h-form-block {
+    position: relative;
+}
+
+.h-select-svg {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+
+    fill: #C79002;
+    pointer-events: none;
+}
+
+.h-modal-rm-label {
+    margin-top: 8px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+
+    color: #C79002;
+
+
+}
+
+.h-form-input-select,
+.h-form-input-client,
+.h-form-input-date {
+    padding: 17px 12px;
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    border: 1px solid #C79002;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.h-form-input-select:hover,
+.h-form-input-client:hover,
+.h-form-input-date:hover,
+.h-form-input-select:focus,
+.h-form-input-client:focus,
+.h-form-input-date:focus {
+    outline: #C79002;
+}
+
+.h-form-input-date,
+.h-form-input-select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.h-form-input-select,
+.h-form-input-client::placeholder,
+.h-form-input-date::placeholder {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+    color: #808080;
+}
+
+.h-send-button {
+    display: block;
+    margin-top: 40px;
+    background: #000000;
+    border: 1px solid #f3c653;
+    border-radius: 2px;
+    padding: 20px 20px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.h-send-button:hover,
+.h-send-button:focus {
+    color: #000000;
+    background-color: #f3c653;
+    border-color: #f3c653;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    .h-form-block {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 45px;
+    }
+
+    .h-send-button {
+        width: 384px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .h-modal-room {
+        max-width: 712px;
+        padding: 60px;
+    }
+
+    .h-form-block {
+        display: flex;
+        flex-direction: column;
+
+        width: 288px;
+    }
+
+    .h-modal-input-client,
+    .h-modal-input-date {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+
+        margin-left: 0;
+    }
+
+    .h-modal-selctor {
+        display: block;
+        margin-left: 305px;
+    }
+
+    .h-modal-selctor,
+    .h-modal-input-date {
+        margin-top: 28px;
+    }
+
+    .h-form-input-select {
+        display: inline-flex;
+        align-items: end;
+        max-width: 288px;
+    }
+
+    .h-send-button {
+        width: 592px;
+        height: 64px;
+    }
+}

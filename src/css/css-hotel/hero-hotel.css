@@ -29,10 +29,17 @@
     }
 }
 
+
 @media screen and (min-width: 414px) {
     .section-hotel {
         width: 414px;
         padding-top: 181px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .section-hotel {
         padding-bottom: 20px;
     }
 }
@@ -56,9 +63,10 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .section-hotel {
         position: relative;
+        padding-bottom: 20px;
     }
 }
 
@@ -218,8 +226,6 @@
     width: 210px;
     height: 47px;
 
-
-
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -238,8 +244,16 @@
     color: #E5E5E5;
     background-color: transparent;
 }
+@media screen and (max-width: 1024px) {
+    .hotel-adresslink {
+        position: absolute;
+        top: 10%;
+        left: 47%;
+        transform: translateY(-50%);
+    }
+}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .hotel-adresslink {
         margin-right: 132px;
         width: 285px;
@@ -247,20 +261,6 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .hotel-adresslink {
-        margin-left: 0px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .hotel-adresslink {
-        position: absolute;
-        top: 13%;
-        left: 47%;
-        transform: translateY(-50%);
-    }
-}
 
 @media screen and (min-width: 1280px) {
     .hotel-adresslink {

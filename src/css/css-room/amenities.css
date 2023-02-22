@@ -158,6 +158,22 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
-    margin-right: 199px;
+    margin-right: 100px;
+  }
+  .description-div {
+    gap: 159px;
+  }
+
+  .amenities-btn {
+    font-size: 24px;
+    padding: 18px 38px;
+  }
+
+  .amenities-btn-hotpeg {
+    font-size: 20px;
+  }
+
+  .icon {
+    margin-left: 16px;
   }
 }
